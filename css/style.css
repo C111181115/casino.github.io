@@ -14,8 +14,13 @@
 
 .menu li{
     display: inline;
+    margin-right: 10px;
 }
 
 .login {
     display: flex;
+}
+
+.login button {
+    align-items: center;
 }
