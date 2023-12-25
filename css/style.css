@@ -1,0 +1,21 @@
+/*初始化*/
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/*頁頭欄位樣式*/
+.header {
+    position: fixed;
+    height: auto;
+    width: 100%;
+    background-color: black;
+}
+
+.menu li{
+    display: inline;
+}
+
+.login {
+    display: flex;
+}
