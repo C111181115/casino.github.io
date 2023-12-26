@@ -34,7 +34,7 @@
 }
 
 .menu button{
-    width: 100px;
+    width: 120px;
     height: 50px;
     color: white;
     border: 1px solid;
@@ -45,7 +45,7 @@
 
 .menu li{
     display: inline;
-    margin-right: 40px;
+    margin-right: 20px;
 }
 
 .menu a {
