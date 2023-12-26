@@ -7,9 +7,24 @@
 /*頁頭欄位樣式*/
 .header {
     position: fixed;
-    height: auto;
+    height: 120px;
     width: 100%;
     background-color: black;
+}
+
+.header h1 {
+    color: white;
+    position: absolute;
+    left: 120px;
+    top:0;
+    line-height: 120px;
+}
+
+.header ul {
+    position: absolute;
+    right: 10px;
+    top:0;
+    line-height: 120px;
 }
 
 .menu li{
@@ -17,10 +32,8 @@
     margin-right: 10px;
 }
 
-.login {
-    display: flex;
-}
-
-.login button {
-    align-items: center;
+.menu a {
+    color:white;
+    text-decoration: none;
+    font-size: 25px;
 }
