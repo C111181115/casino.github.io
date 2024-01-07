@@ -1,0 +1,21 @@
+.main {
+    position: relative;
+    top: 120px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.title a{
+    margin-top: 20px;
+    font-size: 80px;
+}
+
+.gamebox {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+}
+
