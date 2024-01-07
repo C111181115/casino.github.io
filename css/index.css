@@ -1,22 +1,19 @@
 /*主頁面樣式*/
 
 .main {
-
-    min-height: 100vh;
-    background-color:beige;
+    position: absolute;
+    top: 120px;
+    background-color: beige;
+    height: 100%;
+    width: 100%;
 }
 
-.msgbox{
+.msgbox {
+    margin-top: 30px;
     display: flex;
-}
-
-.msgbox div{
-    margin-left: -1px;
-    border: 1px solid black;
-    display: flex;
-    align-items: center;
-    padding: 10px;
-    width: auto;
+    justify-content: center;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 .msgbox img {
@@ -24,21 +21,37 @@
     height: 100px;
 }
 
-.box1 {
+.box {
+    margin-left: -1px;
+    border: 1px solid black;
     display: flex;
-
-}
-
-.box2 {
-
+    align-items: center;
+    padding: 10px;
+    width: 100vw;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
 }
 
 .title {
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 .title img {
     width: 100%;
+}
+
+.font {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.font a {
+    font-size: 35px;
+}
+
+.sf a {
+    font-size: 25px;
 }
