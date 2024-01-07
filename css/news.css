@@ -1,14 +1,18 @@
 .main {
     position: relative;
-    top: 180px;
+    top: 120px;
+    background-color:beige ;
+    height: 100vh;
 }
 
 .title {
+    
     display: flex;
     justify-content: center;
 }
 
 .title a {
+    margin-top: 35px;
     font-size: 80px;
 }
 
@@ -21,6 +25,7 @@
 }
 
 .msgbox div {
+    background-color: azure;
     margin-top:-1px;
     border: 1px solid black;
     padding: 10px;
