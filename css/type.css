@@ -1,6 +1,8 @@
 .main {
     position: relative;
     top: 120px;
+    background-color: beige;
+    height: 100vh;
 }
 
 .title {
@@ -8,14 +10,59 @@
     justify-content: center;
 }
 
-.title a{
+.title a {
     margin-top: 20px;
     font-size: 80px;
 }
 
 .gamebox {
-    margin-top: 150px;
+    margin-top: -30px;
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
+.gamebox img {
+    height: 250px;
+}
+
+.gamebox a {
+    font-size: 50px;
+}
+
+.gamebox button {
+    position: absolute;
+    font-size: 50px;
+    border: 2px solid;
+    height: 80px;
+    right: 13vw;
+    border-radius: 20px;
+    background-color:cornsilk;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.box {
+    border: 5px solid;
+    margin-top: 70px;
+    display: flex;
+    width: 80vw;
+    background-color: azure;
+}
+
+.type {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.font {
+    display: flex;
+    align-items: center;
+}
+
+.font a {
+    text-decoration: none;
+    color: black;
+}
